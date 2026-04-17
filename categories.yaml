@@ -1,0 +1,38 @@
+# Section order below controls the order in README.md.
+# Slugs are referenced from entries.yaml and must be kebab-case.
+
+- slug: robotics-foundation-models
+  name: Robotics Foundation Models
+  description: Vision-language-action (VLA) and embodied foundation models you can fine-tune and deploy.
+
+- slug: world-models
+  name: World Models
+  description: Generative world models for physical simulation, planning, and synthetic data.
+
+- slug: simulation-and-physics-engines
+  name: Simulation and Physics Engines
+  description: Physics simulators and training environments for robotics and embodied AI.
+
+- slug: robot-learning-frameworks
+  name: Robot Learning Frameworks
+  description: Imitation learning, RL, and policy training toolkits targeting robot control.
+
+- slug: datasets-and-benchmarks
+  name: Datasets and Benchmarks
+  description: Public robot datasets, embodied AI benchmarks, and evaluation suites.
+
+- slug: robot-middleware-and-runtime
+  name: Robot Middleware and Runtime
+  description: Messaging, scheduling, and dataflow layers for running robots in the real world.
+
+- slug: teleop-and-data-collection
+  name: Teleop and Data Collection
+  description: Hardware kits and software for collecting demonstration data on real and simulated robots.
+
+- slug: sdks-and-developer-tooling
+  name: SDKs and Developer Tooling
+  description: Libraries for 3D, kinematics, manipulation, and general robotics development.
+
+- slug: templates-and-example-projects
+  name: Templates and Example Projects
+  description: Reference implementations, demos, and starter projects.

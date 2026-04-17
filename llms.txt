@@ -1,0 +1,90 @@
+# Awesome Physical AI
+
+> A curated list of open-source tools for physical AI and robotics — foundation models, world models, simulators, learning frameworks, benchmarks, and runtime.
+
+## Robotics Foundation Models
+
+- [OpenVLA](https://openvla.github.io): 7B-parameter open vision-language-action model trained on 970k demonstrations from Open X-Embodiment. Strong generalist manipulation baseline.
+  - docs: https://github.com/openvla/openvla
+- [Octo](https://octo-models.github.io): Transformer-based generalist robot policy pretrained on 800k trajectories. Flexible conditioning on goal images or language.
+  - docs: https://github.com/octo-models/octo
+- [HuggingFace SmolVLA](https://huggingface.co/blog/smolvla): Compact VLA model from HuggingFace designed to run on consumer hardware while retaining generalist behaviour.
+  - docs: https://github.com/huggingface/lerobot
+- [Physical Intelligence π-0](https://www.physicalintelligence.company): General-purpose robot foundation model from Physical Intelligence. Weights partially released; commercial access via partners.
+- [RT-X / RT-2](https://robotics-transformer-x.github.io): Google DeepMind's RT-X family of generalist robotics transformers and the Open X-Embodiment dataset that underpins them.
+
+## World Models
+
+- [V-JEPA 2](https://ai.meta.com/research/v-jepa/): Meta FAIR's non-generative video predictive model. Learns world representations useful for planning and robot perception.
+  - docs: https://github.com/facebookresearch/jepa
+- [NVIDIA Cosmos](https://www.nvidia.com/en-us/ai/cosmos/): World foundation-model platform for physical AI. Cosmos-Predict generates physics-aware video from text, image, video, or sensor inputs.
+  - docs: https://docs.nvidia.com/cosmos/latest/introduction.html
+- [1X World Model](https://www.1x.tech/discover/introducing-our-world-model): Humanoid-centric world model from 1X. Generates high-fidelity first-person rollouts for policy evaluation in simulation.
+
+## Simulation and Physics Engines
+
+- [Genesis](https://genesis-embodied-ai.github.io): Pure-Python physics platform for generalist embodied AI. Unifies rigid, soft, fluid, and differentiable simulation.
+  - docs: https://genesis-world.readthedocs.io
+- [PyBullet](https://pybullet.org): Python bindings for the Bullet physics engine. Still widely used for manipulation and locomotion baselines.
+  - docs: https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA
+- [MuJoCo](https://mujoco.org): DeepMind's fast multi-joint dynamics engine. Standard for contact-rich manipulation and locomotion research.
+  - docs: https://mujoco.readthedocs.io
+- [NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/): Unified robot-learning framework on Isaac Sim. GPU-accelerated training with rich sensor and contact simulation.
+  - docs: https://isaac-sim.github.io/IsaacLab/source/setup/installation/index.html
+- [Drake](https://drake.mit.edu): MIT/TRI's model-based design toolbox. Rigid-body dynamics, trajectory optimization, and system modeling for robotics.
+  - docs: https://drake.mit.edu/doxygen_cxx/index.html
+- [Brax](https://github.com/google/brax): Google's differentiable physics engine in JAX. Massively parallel RL on a single accelerator.
+- [Gazebo](https://gazebosim.org): Open-source robotics simulator with tight ROS 2 integration. Modern Gazebo (Harmonic/Ionic) is the successor to Gazebo Classic.
+  - docs: https://gazebosim.org/docs
+
+## Robot Learning Frameworks
+
+- [HuggingFace LeRobot](https://github.com/huggingface/lerobot): End-to-end robot-learning library from HuggingFace. Datasets on the Hub, policies, and low-cost reference hardware (SO-100).
+  - docs: https://huggingface.co/docs/lerobot
+- [Stable-Baselines3](https://stable-baselines3.readthedocs.io): Reliable PyTorch implementations of popular RL algorithms. De-facto baseline for reproducible RL research.
+  - docs: https://stable-baselines3.readthedocs.io/en/master/
+- [Robomimic](https://robomimic.github.io): Research framework for imitation learning from human demonstrations. Standardized dataset format and algorithm zoo.
+  - docs: https://robomimic.github.io/docs/introduction/overview.html
+- [RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html): Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms.
+
+## Datasets and Benchmarks
+
+- [ManiSkill](https://www.maniskill.ai): GPU-parallel manipulation benchmark built on SAPIEN. Millions of env-steps per second on a single GPU.
+  - docs: https://maniskill.readthedocs.io
+- [Meta-World](https://meta-world.github.io): 50-task manipulation benchmark for meta-learning and multitask RL.
+  - docs: https://github.com/Farama-Foundation/Metaworld
+- [RLBench](https://sites.google.com/view/rlbench): Large-scale benchmark for robot learning with 100+ tasks built on CoppeliaSim.
+  - docs: https://github.com/stepjam/RLBench
+- [LIBERO](https://libero-project.github.io): Benchmark for lifelong robot learning. 130 tasks across four skill categories, with standard splits and evaluation protocols.
+  - docs: https://github.com/Lifelong-Robot-Learning/LIBERO
+- [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment): Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies.
+  - docs: https://robotics-transformer-x.github.io
+
+## Robot Middleware and Runtime
+
+- [ROS 2](https://www.ros.org): Standard robotics middleware. DDS-based messaging, real-time support, and a massive ecosystem of drivers and tools.
+  - docs: https://docs.ros.org/en/jazzy/
+- [Dora-rs](https://dora-rs.ai): Low-latency dataflow robotics runtime written in Rust. Python-friendly; often faster than ROS 2 for perception pipelines.
+  - docs: https://dora-rs.ai/docs/
+
+## Teleop and Data Collection
+
+- [LeRobot SO-100 Arm](https://github.com/TheRobotStudio/SO-ARM100): Open-source 6-DOF arm co-developed with HuggingFace LeRobot. ~$120 BOM; standard entry-point for homegrown robot data.
+- [Mobile ALOHA](https://mobile-aloha.github.io): Low-cost bimanual mobile-manipulation platform with open hardware and teleop code. Reference data-collection rig.
+  - docs: https://github.com/MarkFzp/mobile-aloha
+- [GELLO](https://wuphilipp.github.io/gello_site/): Low-cost, 3D-printable intuitive teleoperation system for arm manipulators. Popular for collecting demonstration data.
+  - docs: https://github.com/wuphilipp/gello_software
+
+## SDKs and Developer Tooling
+
+- [Open3D](https://www.open3d.org): 3D data processing library with point-cloud registration, reconstruction, and a modern ML module.
+  - docs: https://www.open3d.org/docs/release/
+- [PyTorch3D](https://pytorch3d.org): Reusable 3D components in PyTorch from Meta FAIR. Differentiable rendering, mesh ops, and point-cloud primitives.
+  - docs: https://pytorch3d.readthedocs.io
+- [NVIDIA GR00T](https://github.com/NVIDIA/Isaac-GR00T): NVIDIA's open humanoid foundation-model toolkit. Training recipes, policies, and data-generation pipelines for humanoids.
+  - docs: https://developer.nvidia.com/isaac-gr00t
+
+## Templates and Example Projects
+
+- [Isaac Lab Examples](https://github.com/isaac-sim/IsaacLabExtensionTemplate): Official template repo for building Isaac Lab tasks and training environments.
+- [LeRobot Tutorials](https://huggingface.co/docs/lerobot/en/tutorials): Step-by-step tutorials for recording robot data, training policies, and evaluating on real hardware.
