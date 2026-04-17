@@ -10,6 +10,8 @@
   - docs: https://github.com/octo-models/octo
 - [HuggingFace SmolVLA](https://huggingface.co/blog/smolvla): Compact VLA model from HuggingFace designed to run on consumer hardware while retaining generalist behaviour.
   - docs: https://github.com/huggingface/lerobot
+- [openpi](https://github.com/Physical-Intelligence/openpi): Open-source code and weights for π0, π0-FAST, and π0.5 VLA models from Physical Intelligence. Fine-tuning recipes for ALOHA, DROID, and custom platforms.
+  - docs: https://www.pi.website/blog/openpi
 - [Physical Intelligence π-0](https://www.physicalintelligence.company): General-purpose robot foundation model from Physical Intelligence. Weights partially released; commercial access via partners.
 - [RT-X / RT-2](https://robotics-transformer-x.github.io): Google DeepMind's RT-X family of generalist robotics transformers and the Open X-Embodiment dataset that underpins them.
 
@@ -36,6 +38,10 @@
 - [Brax](https://github.com/google/brax): Google's differentiable physics engine in JAX. Massively parallel RL on a single accelerator.
 - [Gazebo](https://gazebosim.org): Open-source robotics simulator with tight ROS 2 integration. Modern Gazebo (Harmonic/Ionic) is the successor to Gazebo Classic.
   - docs: https://gazebosim.org/docs
+- [Newton](https://github.com/newton-physics/newton): GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend.
+  - docs: https://developer.nvidia.com/newton-physics
+- [robosuite](https://robosuite.ai): MuJoCo-based simulation framework and benchmark suite for robot learning. Supports humanoids, custom robot composition, and photorealistic rendering.
+  - docs: https://robosuite.ai/docs/overview.html
 
 ## Robot Learning Frameworks
 
@@ -45,6 +51,8 @@
   - docs: https://stable-baselines3.readthedocs.io/en/master/
 - [Robomimic](https://robomimic.github.io): Research framework for imitation learning from human demonstrations. Standardized dataset format and algorithm zoo.
   - docs: https://robomimic.github.io/docs/introduction/overview.html
+- [MuJoCo Playground](https://playground.mujoco.org): GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer.
+  - docs: https://github.com/google-deepmind/mujoco_playground
 - [RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html): Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms.
 
 ## Datasets and Benchmarks
@@ -57,6 +65,8 @@
   - docs: https://github.com/stepjam/RLBench
 - [LIBERO](https://libero-project.github.io): Benchmark for lifelong robot learning. 130 tasks across four skill categories, with standard splits and evaluation protocols.
   - docs: https://github.com/Lifelong-Robot-Learning/LIBERO
+- [AgiBot World](https://agibot-world.com): Large-scale bimanual manipulation dataset with 1M+ trajectories from 100 robots across 100+ real-world scenarios. Includes the GO-1 foundation model and LeRobot-based toolchain.
+  - docs: https://github.com/OpenDriveLab/AgiBot-World
 - [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment): Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies.
   - docs: https://robotics-transformer-x.github.io
 

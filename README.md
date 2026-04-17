@@ -2,7 +2,7 @@
 
 A curated list of open-source tools for physical AI and robotics — foundation models, world models, simulators, learning frameworks, benchmarks, and runtime.
 
-Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist). Backblaze B2 is the storage cloud for innovators building at the speed of AI. 
+Maintained by [Backblaze](https://www.backblaze.com).
 
 ### Related Lists
 
@@ -34,6 +34,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[OpenVLA](https://openvla.github.io)** – 7B-parameter open vision-language-action model trained on 970k demonstrations from Open X-Embodiment. Strong generalist manipulation baseline. [Docs](https://github.com/openvla/openvla)
 - **[Octo](https://octo-models.github.io)** – Transformer-based generalist robot policy pretrained on 800k trajectories. Flexible conditioning on goal images or language. [Docs](https://github.com/octo-models/octo)
 - **[HuggingFace SmolVLA](https://huggingface.co/blog/smolvla)** – Compact VLA model from HuggingFace designed to run on consumer hardware while retaining generalist behaviour. [Docs](https://github.com/huggingface/lerobot)
+- **[openpi](https://github.com/Physical-Intelligence/openpi)** – Open-source code and weights for π0, π0-FAST, and π0.5 VLA models from Physical Intelligence. Fine-tuning recipes for ALOHA, DROID, and custom platforms. [Docs](https://www.pi.website/blog/openpi)
 - **[Physical Intelligence π-0](https://www.physicalintelligence.company)** – General-purpose robot foundation model from Physical Intelligence. Weights partially released; commercial access via partners.
 - **[RT-X / RT-2](https://robotics-transformer-x.github.io)** – Google DeepMind's RT-X family of generalist robotics transformers and the Open X-Embodiment dataset that underpins them.
 
@@ -56,6 +57,8 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Drake](https://drake.mit.edu)** – MIT/TRI's model-based design toolbox. Rigid-body dynamics, trajectory optimization, and system modeling for robotics. [Docs](https://drake.mit.edu/doxygen_cxx/index.html)
 - **[Brax](https://github.com/google/brax)** – Google's differentiable physics engine in JAX. Massively parallel RL on a single accelerator. SDK: Python (pip install brax)
 - **[Gazebo](https://gazebosim.org)** – Open-source robotics simulator with tight ROS 2 integration. Modern Gazebo (Harmonic/Ionic) is the successor to Gazebo Classic. [Docs](https://gazebosim.org/docs)
+- **[Newton](https://github.com/newton-physics/newton)** – GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend. [Docs](https://developer.nvidia.com/newton-physics) | SDK: Python (pip install newton)
+- **[robosuite](https://robosuite.ai)** – MuJoCo-based simulation framework and benchmark suite for robot learning. Supports humanoids, custom robot composition, and photorealistic rendering. [Docs](https://robosuite.ai/docs/overview.html) | SDK: Python (pip install robosuite)
 
 ## Robot Learning Frameworks
 
@@ -64,6 +67,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[HuggingFace LeRobot](https://github.com/huggingface/lerobot)** – End-to-end robot-learning library from HuggingFace. Datasets on the Hub, policies, and low-cost reference hardware (SO-100). [Docs](https://huggingface.co/docs/lerobot) | SDK: Python (pip install lerobot)
 - **[Stable-Baselines3](https://stable-baselines3.readthedocs.io)** – Reliable PyTorch implementations of popular RL algorithms. De-facto baseline for reproducible RL research. [Docs](https://stable-baselines3.readthedocs.io/en/master/) | SDK: Python (pip install stable-baselines3)
 - **[Robomimic](https://robomimic.github.io)** – Research framework for imitation learning from human demonstrations. Standardized dataset format and algorithm zoo. [Docs](https://robomimic.github.io/docs/introduction/overview.html)
+- **[MuJoCo Playground](https://playground.mujoco.org)** – GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer. [Docs](https://github.com/google-deepmind/mujoco_playground) | SDK: Python (pip install playground)
 - **[RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html)** – Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms. SDK: Python (pip install ray[rllib])
 
 ## Datasets and Benchmarks
@@ -74,6 +78,7 @@ Maintained by [Backblaze](https://www.backblaze.com/cloud-storage?utm_source=git
 - **[Meta-World](https://meta-world.github.io)** – 50-task manipulation benchmark for meta-learning and multitask RL. [Docs](https://github.com/Farama-Foundation/Metaworld)
 - **[RLBench](https://sites.google.com/view/rlbench)** – Large-scale benchmark for robot learning with 100+ tasks built on CoppeliaSim. [Docs](https://github.com/stepjam/RLBench)
 - **[LIBERO](https://libero-project.github.io)** – Benchmark for lifelong robot learning. 130 tasks across four skill categories, with standard splits and evaluation protocols. [Docs](https://github.com/Lifelong-Robot-Learning/LIBERO)
+- **[AgiBot World](https://agibot-world.com)** – Large-scale bimanual manipulation dataset with 1M+ trajectories from 100 robots across 100+ real-world scenarios. Includes the GO-1 foundation model and LeRobot-based toolchain. [Docs](https://github.com/OpenDriveLab/AgiBot-World)
 - **[Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment)** – Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies. [Docs](https://robotics-transformer-x.github.io)
 
 ## Robot Middleware and Runtime
@@ -118,4 +123,4 @@ Released under [CC0 1.0 Universal](LICENSE). You may copy, modify, and redistrib
 
 ## About Backblaze B2
 
-[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage?utm_source=github&utm_medium=referral&utm_campaign=ai_artifacts&utm_content=awesomelist) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/cloud-storage) is S3-compatible object storage designed for AI and media workloads. This list is maintained as part of our work making B2 a convenient storage layer for AI workflows.

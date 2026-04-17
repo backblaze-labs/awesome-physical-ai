@@ -37,6 +37,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: openpi
+  url: https://github.com/Physical-Intelligence/openpi
+  docs_url: https://www.pi.website/blog/openpi
+  description: Open-source code and weights for π0, π0-FAST, and π0.5 VLA models from Physical Intelligence. Fine-tuning recipes for ALOHA, DROID, and custom platforms.
+  category: robotics-foundation-models
+  github: Physical-Intelligence/openpi
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 - name: HuggingFace SmolVLA
   url: https://huggingface.co/blog/smolvla
   docs_url: https://github.com/huggingface/lerobot
@@ -74,6 +84,7 @@
   last_verified: 2026-04-17
 
 # ---------------- Simulation and Physics Engines ----------------
+
 
 - name: NVIDIA Isaac Lab
   url: https://isaac-sim.github.io/IsaacLab/
@@ -153,6 +164,30 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: Newton
+  url: https://github.com/newton-physics/newton
+  docs_url: https://developer.nvidia.com/newton-physics
+  description: GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend.
+  category: simulation-and-physics-engines
+  github: newton-physics/newton
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install newton)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: robosuite
+  url: https://robosuite.ai
+  docs_url: https://robosuite.ai/docs/overview.html
+  description: MuJoCo-based simulation framework and benchmark suite for robot learning. Supports humanoids, custom robot composition, and photorealistic rendering.
+  category: simulation-and-physics-engines
+  github: ARISE-Initiative/robosuite
+  license: MIT
+  sdks:
+    - {language: Python (pip install robosuite)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -197,6 +232,18 @@
     - language: "Python (pip install ray[rllib])"
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: MuJoCo Playground
+  url: https://playground.mujoco.org
+  docs_url: https://github.com/google-deepmind/mujoco_playground
+  description: GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer.
+  category: robot-learning-frameworks
+  github: google-deepmind/mujoco_playground
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install playground)}
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Datasets and Benchmarks ----------------
 
@@ -244,6 +291,16 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: AgiBot World
+  url: https://agibot-world.com
+  docs_url: https://github.com/OpenDriveLab/AgiBot-World
+  description: Large-scale bimanual manipulation dataset with 1M+ trajectories from 100 robots across 100+ real-world scenarios. Includes the GO-1 foundation model and LeRobot-based toolchain.
+  category: datasets-and-benchmarks
+  github: OpenDriveLab/AgiBot-World
+  license: CC-BY-NC-SA-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Robot Middleware and Runtime ----------------
 
