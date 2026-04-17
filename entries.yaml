@@ -30,6 +30,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: CrossFormer
+  url: https://crossformer-model.github.io
+  docs_url: https://github.com/rail-berkeley/crossformer
+  description: Transformer policy trained on 900k trajectories across 30 embodiments. Single model weights control arms, wheeled robots, quadcopters, and quadrupeds via language or goal-image conditioning.
+  category: robotics-foundation-models
+  github: rail-berkeley/crossformer
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 - name: Physical Intelligence π-0
   url: https://www.physicalintelligence.company
   description: General-purpose robot foundation model from Physical Intelligence. Weights partially released; commercial access via partners.
@@ -188,6 +198,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Genie Sim
+  url: https://github.com/AgibotTech/genie_sim
+  docs_url: https://agibot-world.com
+  description: Humanoid-focused simulation platform built on Isaac Sim. LLM-driven scene generation, 5,100+ validated assets, 200+ benchmark tasks, and zero-shot sim-to-real transfer toolchain.
+  category: simulation-and-physics-engines
+  github: AgibotTech/genie_sim
+  license: MPL-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -281,6 +301,25 @@
   github: Farama-Foundation/Metaworld
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: RoboCasa
+  url: https://robocasa.ai
+  docs_url: https://github.com/robocasa/robocasa
+  description: Large-scale simulation framework for household robot training. RoboCasa365 ships 365 tasks, 2,500+ kitchen scenes, and 2,200+ hours of demonstration data.
+  category: datasets-and-benchmarks
+  github: robocasa/robocasa
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: DROID
+  url: https://droid-dataset.github.io
+  docs_url: https://github.com/droid-dataset/droid_policy_learning
+  description: 76k in-the-wild Franka manipulation trajectories (350 h) collected across 564 scenes at 13 institutions. Dataset, policy-learning code, and hardware setup guide are open source.
+  category: datasets-and-benchmarks
+  github: droid-dataset/droid
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 - name: ManiSkill
   url: https://www.maniskill.ai
@@ -392,6 +431,16 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: GR00T-WholeBodyControl
+  url: https://nvlabs.github.io/GR00T-WholeBodyControl/
+  docs_url: https://github.com/NVlabs/GR00T-WholeBodyControl
+  description: Unified platform for training and deploying humanoid whole-body controllers. Includes SONIC, a behavior foundation model trained on large-scale motion-capture data for walking, manipulation, and VR teleoperation.
+  category: sdks-and-developer-tooling
+  github: NVlabs/GR00T-WholeBodyControl
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
 
 # ---------------- Templates and Example Projects ----------------
 

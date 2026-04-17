@@ -33,6 +33,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 
 - **[OpenVLA](https://openvla.github.io)** – 7B-parameter open vision-language-action model trained on 970k demonstrations from Open X-Embodiment. Strong generalist manipulation baseline. [Docs](https://github.com/openvla/openvla)
 - **[Octo](https://octo-models.github.io)** – Transformer-based generalist robot policy pretrained on 800k trajectories. Flexible conditioning on goal images or language. [Docs](https://github.com/octo-models/octo)
+- **[CrossFormer](https://crossformer-model.github.io)** – Transformer policy trained on 900k trajectories across 30 embodiments. Single model weights control arms, wheeled robots, quadcopters, and quadrupeds via language or goal-image conditioning. [Docs](https://github.com/rail-berkeley/crossformer)
 - **[HuggingFace SmolVLA](https://huggingface.co/blog/smolvla)** – Compact VLA model from HuggingFace designed to run on consumer hardware while retaining generalist behaviour. [Docs](https://github.com/huggingface/lerobot)
 - **[openpi](https://github.com/Physical-Intelligence/openpi)** – Open-source code and weights for π0, π0-FAST, and π0.5 VLA models from Physical Intelligence. Fine-tuning recipes for ALOHA, DROID, and custom platforms. [Docs](https://www.pi.website/blog/openpi)
 - **[Physical Intelligence π-0](https://www.physicalintelligence.company)** – General-purpose robot foundation model from Physical Intelligence. Weights partially released; commercial access via partners.
@@ -57,6 +58,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Drake](https://drake.mit.edu)** – MIT/TRI's model-based design toolbox. Rigid-body dynamics, trajectory optimization, and system modeling for robotics. [Docs](https://drake.mit.edu/doxygen_cxx/index.html)
 - **[Brax](https://github.com/google/brax)** – Google's differentiable physics engine in JAX. Massively parallel RL on a single accelerator. SDK: Python (pip install brax)
 - **[Gazebo](https://gazebosim.org)** – Open-source robotics simulator with tight ROS 2 integration. Modern Gazebo (Harmonic/Ionic) is the successor to Gazebo Classic. [Docs](https://gazebosim.org/docs)
+- **[Genie Sim](https://github.com/AgibotTech/genie_sim)** – Humanoid-focused simulation platform built on Isaac Sim. LLM-driven scene generation, 5,100+ validated assets, 200+ benchmark tasks, and zero-shot sim-to-real transfer toolchain. [Docs](https://agibot-world.com)
 - **[Newton](https://github.com/newton-physics/newton)** – GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend. [Docs](https://developer.nvidia.com/newton-physics) | SDK: Python (pip install newton)
 - **[robosuite](https://robosuite.ai)** – MuJoCo-based simulation framework and benchmark suite for robot learning. Supports humanoids, custom robot composition, and photorealistic rendering. [Docs](https://robosuite.ai/docs/overview.html) | SDK: Python (pip install robosuite)
 
@@ -79,7 +81,9 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[RLBench](https://sites.google.com/view/rlbench)** – Large-scale benchmark for robot learning with 100+ tasks built on CoppeliaSim. [Docs](https://github.com/stepjam/RLBench)
 - **[LIBERO](https://libero-project.github.io)** – Benchmark for lifelong robot learning. 130 tasks across four skill categories, with standard splits and evaluation protocols. [Docs](https://github.com/Lifelong-Robot-Learning/LIBERO)
 - **[AgiBot World](https://agibot-world.com)** – Large-scale bimanual manipulation dataset with 1M+ trajectories from 100 robots across 100+ real-world scenarios. Includes the GO-1 foundation model and LeRobot-based toolchain. [Docs](https://github.com/OpenDriveLab/AgiBot-World)
+- **[DROID](https://droid-dataset.github.io)** – 76k in-the-wild Franka manipulation trajectories (350 h) collected across 564 scenes at 13 institutions. Dataset, policy-learning code, and hardware setup guide are open source. [Docs](https://github.com/droid-dataset/droid_policy_learning)
 - **[Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment)** – Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies. [Docs](https://robotics-transformer-x.github.io)
+- **[RoboCasa](https://robocasa.ai)** – Large-scale simulation framework for household robot training. RoboCasa365 ships 365 tasks, 2,500+ kitchen scenes, and 2,200+ hours of demonstration data. [Docs](https://github.com/robocasa/robocasa)
 
 ## Robot Middleware and Runtime
 
@@ -103,6 +107,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Open3D](https://www.open3d.org)** – 3D data processing library with point-cloud registration, reconstruction, and a modern ML module. [Docs](https://www.open3d.org/docs/release/) | SDK: Python (pip install open3d), C++
 - **[PyTorch3D](https://pytorch3d.org)** – Reusable 3D components in PyTorch from Meta FAIR. Differentiable rendering, mesh ops, and point-cloud primitives. [Docs](https://pytorch3d.readthedocs.io) | SDK: Python (pip install pytorch3d)
 - **[NVIDIA GR00T](https://github.com/NVIDIA/Isaac-GR00T)** – NVIDIA's open humanoid foundation-model toolkit. Training recipes, policies, and data-generation pipelines for humanoids. [Docs](https://developer.nvidia.com/isaac-gr00t)
+- **[GR00T-WholeBodyControl](https://nvlabs.github.io/GR00T-WholeBodyControl/)** – Unified platform for training and deploying humanoid whole-body controllers. Includes SONIC, a behavior foundation model trained on large-scale motion-capture data for walking, manipulation, and VR teleoperation. [Docs](https://github.com/NVlabs/GR00T-WholeBodyControl)
 
 ## Templates and Example Projects
 
