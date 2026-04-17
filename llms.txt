@@ -10,6 +10,8 @@
   - docs: https://github.com/octo-models/octo
 - [CrossFormer](https://crossformer-model.github.io): Transformer policy trained on 900k trajectories across 30 embodiments. Single model weights control arms, wheeled robots, quadcopters, and quadrupeds via language or goal-image conditioning.
   - docs: https://github.com/rail-berkeley/crossformer
+- [HoloMotion](https://github.com/HorizonRobotics/HoloMotion): Foundation model for humanoid whole-body control from Horizon Robotics. End-to-end pipeline for motion retargeting, distributed training, and ROS 2 deployment on real hardware (Unitree G1). Pre-trained weights on HuggingFace.
+  - docs: https://holomotion.readthedocs.io
 - [HuggingFace SmolVLA](https://huggingface.co/blog/smolvla): Compact VLA model from HuggingFace designed to run on consumer hardware while retaining generalist behaviour.
   - docs: https://github.com/huggingface/lerobot
 - [openpi](https://github.com/Physical-Intelligence/openpi): Open-source code and weights for π0, π0-FAST, and π0.5 VLA models from Physical Intelligence. Fine-tuning recipes for ALOHA, DROID, and custom platforms.
@@ -44,6 +46,8 @@
   - docs: https://agibot-world.com
 - [Newton](https://github.com/newton-physics/newton): GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend.
   - docs: https://developer.nvidia.com/newton-physics
+- [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim): Open-source robotics simulation platform on NVIDIA Omniverse. GPU-accelerated physics, photorealistic rendering, synthetic data generation, and ROS 2 bridge. Underlying runtime for Isaac Lab.
+  - docs: https://docs.isaacsim.omniverse.nvidia.com
 - [robosuite](https://robosuite.ai): MuJoCo-based simulation framework and benchmark suite for robot learning. Supports humanoids, custom robot composition, and photorealistic rendering.
   - docs: https://robosuite.ai/docs/overview.html
 
@@ -55,6 +59,7 @@
   - docs: https://stable-baselines3.readthedocs.io/en/master/
 - [Robomimic](https://robomimic.github.io): Research framework for imitation learning from human demonstrations. Standardized dataset format and algorithm zoo.
   - docs: https://robomimic.github.io/docs/introduction/overview.html
+- [HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse): Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
 - [MuJoCo Playground](https://playground.mujoco.org): GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer.
   - docs: https://github.com/google-deepmind/mujoco_playground
 - [RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html): Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms.
@@ -73,6 +78,8 @@
   - docs: https://github.com/OpenDriveLab/AgiBot-World
 - [DROID](https://droid-dataset.github.io): 76k in-the-wild Franka manipulation trajectories (350 h) collected across 564 scenes at 13 institutions. Dataset, policy-learning code, and hardware setup guide are open source.
   - docs: https://github.com/droid-dataset/droid_policy_learning
+- [Gymnasium-Robotics](https://robotics.farama.org): Farama Foundation's collection of MuJoCo-based RL environments for robotics. Includes Fetch arm, Shadow Hand, Franka Kitchen, Adroit, and multi-agent variants. Gymnasium API compatible.
+  - docs: https://robotics.farama.org/index.html
 - [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment): Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies.
   - docs: https://robotics-transformer-x.github.io
 - [RoboCasa](https://robocasa.ai): Large-scale simulation framework for household robot training. RoboCasa365 ships 365 tasks, 2,500+ kitchen scenes, and 2,200+ hours of demonstration data.

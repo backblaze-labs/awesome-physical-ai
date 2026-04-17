@@ -65,6 +65,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: HoloMotion
+  url: https://github.com/HorizonRobotics/HoloMotion
+  docs_url: https://holomotion.readthedocs.io
+  description: Foundation model for humanoid whole-body control from Horizon Robotics. End-to-end pipeline for motion retargeting, distributed training, and ROS 2 deployment on real hardware (Unitree G1). Pre-trained weights on HuggingFace.
+  category: robotics-foundation-models
+  github: HorizonRobotics/HoloMotion
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- World Models ----------------
 
 - name: NVIDIA Cosmos
@@ -208,6 +218,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: NVIDIA Isaac Sim
+  url: https://developer.nvidia.com/isaac/sim
+  docs_url: https://docs.isaacsim.omniverse.nvidia.com
+  description: Open-source robotics simulation platform on NVIDIA Omniverse. GPU-accelerated physics, photorealistic rendering, synthetic data generation, and ROS 2 bridge. Underlying runtime for Isaac Lab.
+  category: simulation-and-physics-engines
+  github: isaac-sim/IsaacSim
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -262,6 +282,15 @@
   license: Apache-2.0
   sdks:
     - {language: Python (pip install playground)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: HumanoidVerse
+  url: https://github.com/LeCAR-Lab/HumanoidVerse
+  description: Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
+  category: robot-learning-frameworks
+  github: LeCAR-Lab/HumanoidVerse
+  license: MIT
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -338,6 +367,18 @@
   category: datasets-and-benchmarks
   github: OpenDriveLab/AgiBot-World
   license: CC-BY-NC-SA-4.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Gymnasium-Robotics
+  url: https://robotics.farama.org
+  docs_url: https://robotics.farama.org/index.html
+  description: Farama Foundation's collection of MuJoCo-based RL environments for robotics. Includes Fetch arm, Shadow Hand, Franka Kitchen, Adroit, and multi-agent variants. Gymnasium API compatible.
+  category: datasets-and-benchmarks
+  github: Farama-Foundation/Gymnasium-Robotics
+  license: MIT
+  sdks:
+    - {language: Python (pip install gymnasium-robotics)}
   b2_integration: ""
   last_verified: 2026-04-18
 
