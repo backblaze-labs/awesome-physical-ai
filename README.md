@@ -63,6 +63,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Newton](https://github.com/newton-physics/newton)** – GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend. [Docs](https://developer.nvidia.com/newton-physics) | SDK: Python (pip install newton)
 - **[NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim)** – Open-source robotics simulation platform on NVIDIA Omniverse. GPU-accelerated physics, photorealistic rendering, synthetic data generation, and ROS 2 bridge. Underlying runtime for Isaac Lab. [Docs](https://docs.isaacsim.omniverse.nvidia.com)
 - **[robosuite](https://robosuite.ai)** – MuJoCo-based simulation framework and benchmark suite for robot learning. Supports humanoids, custom robot composition, and photorealistic rendering. [Docs](https://robosuite.ai/docs/overview.html) | SDK: Python (pip install robosuite)
+- **[RoboVerse](https://roboverseorg.github.io)** – Unified simulation platform, synthetic dataset, and benchmark suite for scalable robot learning. MetaSim abstraction wraps 8+ physics engines (Isaac Lab, MuJoCo, SAPIEN, Genesis, PyBullet) under one API. Accepted RSS 2025. [Docs](https://roboverseorg.github.io/docs/)
 
 ## Robot Learning Frameworks
 
@@ -71,8 +72,10 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[HuggingFace LeRobot](https://github.com/huggingface/lerobot)** – End-to-end robot-learning library from HuggingFace. Datasets on the Hub, policies, and low-cost reference hardware (SO-100). [Docs](https://huggingface.co/docs/lerobot) | SDK: Python (pip install lerobot)
 - **[Stable-Baselines3](https://stable-baselines3.readthedocs.io)** – Reliable PyTorch implementations of popular RL algorithms. De-facto baseline for reproducible RL research. [Docs](https://stable-baselines3.readthedocs.io/en/master/) | SDK: Python (pip install stable-baselines3)
 - **[Robomimic](https://robomimic.github.io)** – Research framework for imitation learning from human demonstrations. Standardized dataset format and algorithm zoo. [Docs](https://robomimic.github.io/docs/introduction/overview.html)
+- **[Ark](https://github.com/Robotics-Ark/ark_framework)** – Python-first robot-learning framework. Gym-style interface for collecting data, training ACT/Diffusion Policy policies, and switching between simulation and real hardware with minimal code changes. [Docs](https://robotics-ark.github.io/ark_robotics.github.io/)
 - **[HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse)** – Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
 - **[MuJoCo Playground](https://playground.mujoco.org)** – GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer. [Docs](https://github.com/google-deepmind/mujoco_playground) | SDK: Python (pip install playground)
+- **[OpenVLA-OFT](https://openvla-oft.github.io)** – Fine-tuning recipe for VLA models combining parallel decoding, action chunking, and continuous-action regression. Achieves 25-50x inference speedup and 97.1% on LIBERO; tested on bimanual ALOHA hardware. [Docs](https://github.com/moojink/openvla-oft)
 - **[RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html)** – Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms. SDK: Python (pip install ray[rllib])
 
 ## Datasets and Benchmarks
@@ -87,6 +90,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[DROID](https://droid-dataset.github.io)** – 76k in-the-wild Franka manipulation trajectories (350 h) collected across 564 scenes at 13 institutions. Dataset, policy-learning code, and hardware setup guide are open source. [Docs](https://github.com/droid-dataset/droid_policy_learning)
 - **[Gymnasium-Robotics](https://robotics.farama.org)** – Farama Foundation's collection of MuJoCo-based RL environments for robotics. Includes Fetch arm, Shadow Hand, Franka Kitchen, Adroit, and multi-agent variants. Gymnasium API compatible. [Docs](https://robotics.farama.org/index.html) | SDK: Python (pip install gymnasium-robotics)
 - **[Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment)** – Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies. [Docs](https://robotics-transformer-x.github.io)
+- **[PHUMA](https://davian-robotics.github.io/PHUMA/)** – Physically-grounded humanoid locomotion dataset from KAIST. Physics-constrained retargeting pipeline (PhySINK) adapts large-scale human motion capture to Unitree G1 and H1-2 while enforcing joint limits and eliminating foot skating. [Docs](https://github.com/DAVIAN-Robotics/PHUMA)
 - **[RoboCasa](https://robocasa.ai)** – Large-scale simulation framework for household robot training. RoboCasa365 ships 365 tasks, 2,500+ kitchen scenes, and 2,200+ hours of demonstration data. [Docs](https://github.com/robocasa/robocasa)
 
 ## Robot Middleware and Runtime

@@ -228,6 +228,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: RoboVerse
+  url: https://roboverseorg.github.io
+  docs_url: https://roboverseorg.github.io/docs/
+  description: Unified simulation platform, synthetic dataset, and benchmark suite for scalable robot learning. MetaSim abstraction wraps 8+ physics engines (Isaac Lab, MuJoCo, SAPIEN, Genesis, PyBullet) under one API. Accepted RSS 2025.
+  category: simulation-and-physics-engines
+  github: RoboVerseOrg/RoboVerse
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-18
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -290,6 +300,26 @@
   description: Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
   category: robot-learning-frameworks
   github: LeCAR-Lab/HumanoidVerse
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: Ark
+  url: https://github.com/Robotics-Ark/ark_framework
+  docs_url: https://robotics-ark.github.io/ark_robotics.github.io/
+  description: Python-first robot-learning framework. Gym-style interface for collecting data, training ACT/Diffusion Policy policies, and switching between simulation and real hardware with minimal code changes.
+  category: robot-learning-frameworks
+  github: Robotics-Ark/ark_framework
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: OpenVLA-OFT
+  url: https://openvla-oft.github.io
+  docs_url: https://github.com/moojink/openvla-oft
+  description: Fine-tuning recipe for VLA models combining parallel decoding, action chunking, and continuous-action regression. Achieves 25-50x inference speedup and 97.1% on LIBERO; tested on bimanual ALOHA hardware.
+  category: robot-learning-frameworks
+  github: moojink/openvla-oft
   license: MIT
   b2_integration: ""
   last_verified: 2026-04-18
@@ -379,6 +409,16 @@
   license: MIT
   sdks:
     - {language: Python (pip install gymnasium-robotics)}
+  b2_integration: ""
+  last_verified: 2026-04-18
+
+- name: PHUMA
+  url: https://davian-robotics.github.io/PHUMA/
+  docs_url: https://github.com/DAVIAN-Robotics/PHUMA
+  description: Physically-grounded humanoid locomotion dataset from KAIST. Physics-constrained retargeting pipeline (PhySINK) adapts large-scale human motion capture to Unitree G1 and H1-2 while enforcing joint limits and eliminating foot skating.
+  category: datasets-and-benchmarks
+  github: DAVIAN-Robotics/PHUMA
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-18
 
