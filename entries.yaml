@@ -238,6 +238,28 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: Webots
+  url: https://cyberbotics.com
+  docs_url: https://cyberbotics.com/doc/guide/index
+  description: Open-source 3D robot simulator by Cyberbotics. Supports ROS 2, Python, C/C++, Java, and MATLAB controllers. Includes 200+ robot models and physics via ODE.
+  category: simulation-and-physics-engines
+  github: cyberbotics/webots
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Habitat-Lab
+  url: https://aihabitat.org
+  docs_url: https://github.com/facebookresearch/habitat-lab
+  description: Meta FAIR's modular library for training embodied AI agents in photorealistic 3D indoor environments. Supports navigation, rearrangement, and instruction following via RL or imitation learning.
+  category: simulation-and-physics-engines
+  github: facebookresearch/habitat-lab
+  license: MIT
+  sdks:
+    - {language: Python (pip install habitat-lab)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -323,6 +345,36 @@
   license: MIT
   b2_integration: ""
   last_verified: 2026-04-18
+
+- name: RSL-RL
+  url: https://github.com/leggedrobotics/rsl_rl
+  description: Lightweight GPU-accelerated RL library from ETH Zurich RSL. Implements PPO and student-teacher distillation; integrates directly with Isaac Lab and Legged Gym.
+  category: robot-learning-frameworks
+  github: leggedrobotics/rsl_rl
+  license: BSD-3-Clause
+  sdks:
+    - {language: Python (pip install rsl-rl-lib)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Diffusion Policy
+  url: https://diffusion-policy.cs.columbia.edu
+  docs_url: https://github.com/real-stanford/diffusion_policy
+  description: Visuomotor policy learning via conditional denoising diffusion. Handles multimodal action distributions; demonstrated on 12 simulation tasks and real UR5 arms. RSS 2023.
+  category: robot-learning-frameworks
+  github: real-stanford/diffusion_policy
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-04-21
+
+- name: Holosoma
+  url: https://github.com/amazon-far/holosoma
+  description: Full-stack humanoid sim-to-real training framework from Amazon FAR. Supports IsaacGym, IsaacSim, MJWarp, and MuJoCo backends with a unified inference stack for real-robot deployment on Unitree G1 and Booster T1.
+  category: robot-learning-frameworks
+  github: amazon-far/holosoma
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- Datasets and Benchmarks ----------------
 

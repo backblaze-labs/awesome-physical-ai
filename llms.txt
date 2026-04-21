@@ -44,6 +44,8 @@
   - docs: https://gazebosim.org/docs
 - [Genie Sim](https://github.com/AgibotTech/genie_sim): Humanoid-focused simulation platform built on Isaac Sim. LLM-driven scene generation, 5,100+ validated assets, 200+ benchmark tasks, and zero-shot sim-to-real transfer toolchain.
   - docs: https://agibot-world.com
+- [Habitat-Lab](https://aihabitat.org): Meta FAIR's modular library for training embodied AI agents in photorealistic 3D indoor environments. Supports navigation, rearrangement, and instruction following via RL or imitation learning.
+  - docs: https://github.com/facebookresearch/habitat-lab
 - [Newton](https://github.com/newton-physics/newton): GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend.
   - docs: https://developer.nvidia.com/newton-physics
 - [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim): Open-source robotics simulation platform on NVIDIA Omniverse. GPU-accelerated physics, photorealistic rendering, synthetic data generation, and ROS 2 bridge. Underlying runtime for Isaac Lab.
@@ -52,6 +54,8 @@
   - docs: https://robosuite.ai/docs/overview.html
 - [RoboVerse](https://roboverseorg.github.io): Unified simulation platform, synthetic dataset, and benchmark suite for scalable robot learning. MetaSim abstraction wraps 8+ physics engines (Isaac Lab, MuJoCo, SAPIEN, Genesis, PyBullet) under one API. Accepted RSS 2025.
   - docs: https://roboverseorg.github.io/docs/
+- [Webots](https://cyberbotics.com): Open-source 3D robot simulator by Cyberbotics. Supports ROS 2, Python, C/C++, Java, and MATLAB controllers. Includes 200+ robot models and physics via ODE.
+  - docs: https://cyberbotics.com/doc/guide/index
 
 ## Robot Learning Frameworks
 
@@ -63,12 +67,16 @@
   - docs: https://robomimic.github.io/docs/introduction/overview.html
 - [Ark](https://github.com/Robotics-Ark/ark_framework): Python-first robot-learning framework. Gym-style interface for collecting data, training ACT/Diffusion Policy policies, and switching between simulation and real hardware with minimal code changes.
   - docs: https://robotics-ark.github.io/ark_robotics.github.io/
+- [Diffusion Policy](https://diffusion-policy.cs.columbia.edu): Visuomotor policy learning via conditional denoising diffusion. Handles multimodal action distributions; demonstrated on 12 simulation tasks and real UR5 arms. RSS 2023.
+  - docs: https://github.com/real-stanford/diffusion_policy
+- [Holosoma](https://github.com/amazon-far/holosoma): Full-stack humanoid sim-to-real training framework from Amazon FAR. Supports IsaacGym, IsaacSim, MJWarp, and MuJoCo backends with a unified inference stack for real-robot deployment on Unitree G1 and Booster T1.
 - [HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse): Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
 - [MuJoCo Playground](https://playground.mujoco.org): GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer.
   - docs: https://github.com/google-deepmind/mujoco_playground
 - [OpenVLA-OFT](https://openvla-oft.github.io): Fine-tuning recipe for VLA models combining parallel decoding, action chunking, and continuous-action regression. Achieves 25-50x inference speedup and 97.1% on LIBERO; tested on bimanual ALOHA hardware.
   - docs: https://github.com/moojink/openvla-oft
 - [RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html): Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms.
+- [RSL-RL](https://github.com/leggedrobotics/rsl_rl): Lightweight GPU-accelerated RL library from ETH Zurich RSL. Implements PPO and student-teacher distillation; integrates directly with Isaac Lab and Legged Gym.
 
 ## Datasets and Benchmarks
 
