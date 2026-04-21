@@ -57,6 +57,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: MolmoBot
+  url: https://allenai.github.io/MolmoBot/
+  docs_url: https://github.com/allenai/MolmoBot
+  description: Ai2 robot manipulation model suite trained entirely in simulation. Achieves zero-shot real-world transfer on Franka FR3 and RB-Y1 without real-world training data.
+  category: robotics-foundation-models
+  github: allenai/MolmoBot
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 - name: HuggingFace SmolVLA
   url: https://huggingface.co/blog/smolvla
   docs_url: https://github.com/huggingface/lerobot
@@ -260,6 +270,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: MolmoSpaces
+  url: https://github.com/allenai/molmospaces
+  docs_url: https://allenai.github.io/MolmoBot/
+  description: Ai2 open ecosystem for robot learning. Unifies 230k+ indoor scenes, 130k object models, and 42M+ annotated grasps across MuJoCo, Isaac, and ManiSkill backends.
+  category: simulation-and-physics-engines
+  github: allenai/molmospaces
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -376,6 +396,18 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: Rofunc
+  url: https://github.com/Skylark0924/Rofunc
+  docs_url: https://rofunc.readthedocs.io
+  description: Full-process Python package for robot learning from demonstration and manipulation. Covers demo collection, preprocessing, IL/RL algorithms, and sim deployment on IsaacGym and Genesis.
+  category: robot-learning-frameworks
+  github: Skylark0924/Rofunc
+  license: GPL-3.0
+  sdks:
+    - {language: Python (pip install rofunc)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Datasets and Benchmarks ----------------
 
 - name: Open X-Embodiment
@@ -474,6 +506,18 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: HumanoidBench
+  url: https://humanoid-bench.github.io
+  docs_url: https://github.com/carlosferrazza/humanoid-bench
+  description: Simulated humanoid benchmark with 27 whole-body control tasks (12 locomotion + 15 manipulation) on MuJoCo. Supports H1, Digit, Shadow Hand, and Robotiq grippers. RSS 2024.
+  category: datasets-and-benchmarks
+  github: carlosferrazza/humanoid-bench
+  license: MIT
+  sdks:
+    - {language: Python (pip install -e .)}
+  b2_integration: ""
+  last_verified: 2026-04-21
+
 # ---------------- Robot Middleware and Runtime ----------------
 
 - name: ROS 2
@@ -527,6 +571,15 @@
   github: TheRobotStudio/SO-ARM100
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: Unitree XR Teleoperate
+  url: https://github.com/unitreerobotics/xr_teleoperate
+  description: Teleoperation of Unitree humanoid robots via Apple Vision Pro and Meta Quest 3. Supports arm, dexterous hand, and whole-body control with simulation mode.
+  category: teleop-and-data-collection
+  github: unitreerobotics/xr_teleoperate
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-04-21
 
 # ---------------- SDKs and Developer Tooling ----------------
 

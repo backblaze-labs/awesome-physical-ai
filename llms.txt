@@ -14,6 +14,8 @@
   - docs: https://holomotion.readthedocs.io
 - [HuggingFace SmolVLA](https://huggingface.co/blog/smolvla): Compact VLA model from HuggingFace designed to run on consumer hardware while retaining generalist behaviour.
   - docs: https://github.com/huggingface/lerobot
+- [MolmoBot](https://allenai.github.io/MolmoBot/): Ai2 robot manipulation model suite trained entirely in simulation. Achieves zero-shot real-world transfer on Franka FR3 and RB-Y1 without real-world training data.
+  - docs: https://github.com/allenai/MolmoBot
 - [openpi](https://github.com/Physical-Intelligence/openpi): Open-source code and weights for π0, π0-FAST, and π0.5 VLA models from Physical Intelligence. Fine-tuning recipes for ALOHA, DROID, and custom platforms.
   - docs: https://www.pi.website/blog/openpi
 - [Physical Intelligence π-0](https://www.physicalintelligence.company): General-purpose robot foundation model from Physical Intelligence. Weights partially released; commercial access via partners.
@@ -46,6 +48,8 @@
   - docs: https://agibot-world.com
 - [Habitat-Lab](https://aihabitat.org): Meta FAIR's modular library for training embodied AI agents in photorealistic 3D indoor environments. Supports navigation, rearrangement, and instruction following via RL or imitation learning.
   - docs: https://github.com/facebookresearch/habitat-lab
+- [MolmoSpaces](https://github.com/allenai/molmospaces): Ai2 open ecosystem for robot learning. Unifies 230k+ indoor scenes, 130k object models, and 42M+ annotated grasps across MuJoCo, Isaac, and ManiSkill backends.
+  - docs: https://allenai.github.io/MolmoBot/
 - [Newton](https://github.com/newton-physics/newton): GPU-accelerated physics simulation engine built on NVIDIA Warp, co-developed by NVIDIA, Google DeepMind, and Disney Research. Integrates MuJoCo Warp as its primary backend.
   - docs: https://developer.nvidia.com/newton-physics
 - [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim): Open-source robotics simulation platform on NVIDIA Omniverse. GPU-accelerated physics, photorealistic rendering, synthetic data generation, and ROS 2 bridge. Underlying runtime for Isaac Lab.
@@ -76,6 +80,8 @@
 - [OpenVLA-OFT](https://openvla-oft.github.io): Fine-tuning recipe for VLA models combining parallel decoding, action chunking, and continuous-action regression. Achieves 25-50x inference speedup and 97.1% on LIBERO; tested on bimanual ALOHA hardware.
   - docs: https://github.com/moojink/openvla-oft
 - [RLlib (Ray)](https://docs.ray.io/en/latest/rllib/index.html): Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms.
+- [Rofunc](https://github.com/Skylark0924/Rofunc): Full-process Python package for robot learning from demonstration and manipulation. Covers demo collection, preprocessing, IL/RL algorithms, and sim deployment on IsaacGym and Genesis.
+  - docs: https://rofunc.readthedocs.io
 - [RSL-RL](https://github.com/leggedrobotics/rsl_rl): Lightweight GPU-accelerated RL library from ETH Zurich RSL. Implements PPO and student-teacher distillation; integrates directly with Isaac Lab and Legged Gym.
 
 ## Datasets and Benchmarks
@@ -94,6 +100,8 @@
   - docs: https://github.com/droid-dataset/droid_policy_learning
 - [Gymnasium-Robotics](https://robotics.farama.org): Farama Foundation's collection of MuJoCo-based RL environments for robotics. Includes Fetch arm, Shadow Hand, Franka Kitchen, Adroit, and multi-agent variants. Gymnasium API compatible.
   - docs: https://robotics.farama.org/index.html
+- [HumanoidBench](https://humanoid-bench.github.io): Simulated humanoid benchmark with 27 whole-body control tasks (12 locomotion + 15 manipulation) on MuJoCo. Supports H1, Digit, Shadow Hand, and Robotiq grippers. RSS 2024.
+  - docs: https://github.com/carlosferrazza/humanoid-bench
 - [Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment): Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies.
   - docs: https://robotics-transformer-x.github.io
 - [PHUMA](https://davian-robotics.github.io/PHUMA/): Physically-grounded humanoid locomotion dataset from KAIST. Physics-constrained retargeting pipeline (PhySINK) adapts large-scale human motion capture to Unitree G1 and H1-2 while enforcing joint limits and eliminating foot skating.
@@ -115,6 +123,7 @@
   - docs: https://github.com/MarkFzp/mobile-aloha
 - [GELLO](https://wuphilipp.github.io/gello_site/): Low-cost, 3D-printable intuitive teleoperation system for arm manipulators. Popular for collecting demonstration data.
   - docs: https://github.com/wuphilipp/gello_software
+- [Unitree XR Teleoperate](https://github.com/unitreerobotics/xr_teleoperate): Teleoperation of Unitree humanoid robots via Apple Vision Pro and Meta Quest 3. Supports arm, dexterous hand, and whole-body control with simulation mode.
 
 ## SDKs and Developer Tooling
 
