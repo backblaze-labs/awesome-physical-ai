@@ -85,6 +85,16 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: RoboVLMs
+  url: https://robovlms.github.io
+  docs_url: https://github.com/Robot-VLAs/RoboVLMs
+  description: Unified framework for building VLA models from any VLM backbone. Integrates 8 VLM architectures (KosMos, PaLiGemma, Qwen, LLaVA, etc.) into robotic policies within 30 lines of code. Evaluated on CALVIN, SimplerEnv, and real-robot tasks. Nature Machine Intelligence 2026.
+  category: robotics-foundation-models
+  github: Robot-VLAs/RoboVLMs
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- World Models ----------------
 
 - name: NVIDIA Cosmos
@@ -289,6 +299,28 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: SAPIEN
+  url: https://sapien.ucsd.edu
+  docs_url: https://sapien-sim.github.io/docs/
+  description: Physics-rich simulation platform for articulated objects and robot manipulation. PhysX 5 GPU parallelization, ray-traced rendering, and depth-sensor simulation. Underlying engine for ManiSkill.
+  category: simulation-and-physics-engines
+  github: haosulab/SAPIEN
+  license: MIT
+  sdks:
+    - {language: Python (pip install sapien)}
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: WheeledLab
+  url: https://uwrobotlearning.github.io/WheeledLab/
+  docs_url: https://github.com/UWRobotLearning/WheeledLab
+  description: Sim-to-real framework for low-cost wheeled robots integrated with Isaac Lab. Provides environments, domain randomization, and sensor simulation for HOUND, MuSHR, and F1Tenth platforms. RSS 2025 demo paper.
+  category: simulation-and-physics-engines
+  github: UWRobotLearning/WheeledLab
+  license: BSD-3-Clause
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Robot Learning Frameworks ----------------
 
 - name: HuggingFace LeRobot
@@ -436,6 +468,15 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: RLinf
+  url: https://github.com/RLinf/RLinf
+  description: Scalable RL infrastructure for training embodied AI and VLA models. Supports PPO, GRPO, and SAC across ManiSkill, LIBERO, Isaac Lab, RoboTwin, and real robot hardware. 2.4x throughput vs prior frameworks via macro-to-micro flow transformation.
+  category: robot-learning-frameworks
+  github: RLinf/RLinf
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Datasets and Benchmarks ----------------
 
 - name: Open X-Embodiment
@@ -553,6 +594,16 @@
   category: datasets-and-benchmarks
   github: RoboTwin-Platform/RoboTwin
   license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: RoboMIND
+  url: https://x-humanoid-robomind.github.io
+  docs_url: https://huggingface.co/datasets/x-humanoid-robomind/RoboMIND
+  description: Multi-embodiment manipulation dataset with 107k teleoperation trajectories across 479 tasks and 4 robot platforms (Franka, UR5e, AgileX dual-arm, humanoid). Includes 5k failure demonstrations with cause annotations. RSS 2025.
+  category: datasets-and-benchmarks
+  github: x-humanoid-robomind/x-humanoid-robomind.github.io
+  license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
 
