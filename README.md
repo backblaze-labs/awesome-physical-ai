@@ -48,6 +48,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[V-JEPA 2](https://ai.meta.com/research/v-jepa/)** – Meta FAIR's non-generative video predictive model. Learns world representations useful for planning and robot perception. [Docs](https://github.com/facebookresearch/jepa)
 - **[NVIDIA Cosmos](https://www.nvidia.com/en-us/ai/cosmos/)** – World foundation-model platform for physical AI. Cosmos-Predict generates physics-aware video from text, image, video, or sensor inputs. [Docs](https://docs.nvidia.com/cosmos/latest/introduction.html)
 - **[1X World Model](https://www.1x.tech/discover/introducing-our-world-model)** – Humanoid-centric world model from 1X. Generates high-fidelity first-person rollouts for policy evaluation in simulation.
+- **[LingBot-VA](https://github.com/robbyant/lingbot-va)** – Causal video-action world model for generalist robot control from Ant Group. AR diffusion framework with dual-stream MoT architecture unifies visual prediction and action inference; SOTA on RoboTwin 2.0 and LIBERO benchmarks.
 
 ## Simulation and Physics Engines
 
@@ -77,6 +78,8 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Stable-Baselines3](https://stable-baselines3.readthedocs.io)** – Reliable PyTorch implementations of popular RL algorithms. De-facto baseline for reproducible RL research. [Docs](https://stable-baselines3.readthedocs.io/en/master/) | SDK: Python (pip install stable-baselines3)
 - **[Robomimic](https://robomimic.github.io)** – Research framework for imitation learning from human demonstrations. Standardized dataset format and algorithm zoo. [Docs](https://robomimic.github.io/docs/introduction/overview.html)
 - **[Ark](https://github.com/Robotics-Ark/ark_framework)** – Python-first robot-learning framework. Gym-style interface for collecting data, training ACT/Diffusion Policy policies, and switching between simulation and real hardware with minimal code changes. [Docs](https://robotics-ark.github.io/ark_robotics.github.io/)
+- **[ASAP](https://agile.human2humanoid.com)** – Two-stage sim-to-real framework for agile humanoid whole-body skills from CMU LeCAR Lab. Pretrains motion-tracking policies in simulation, then learns a delta-action residual model from real-world data to close the dynamics gap. RSS 2025. [Docs](https://github.com/LeCAR-Lab/ASAP)
+- **[DeFi](https://github.com/LogosRoboticsGroup/DeFi)** – Decoupled forward and inverse dynamics pretraining for VLA models. Separate GFDM and GIDM models exploit action-free video and robot data independently; sets SOTA on CALVIN ABC-D (4.51 avg task length). ICLR 2026.
 - **[Diffusion Policy](https://diffusion-policy.cs.columbia.edu)** – Visuomotor policy learning via conditional denoising diffusion. Handles multimodal action distributions; demonstrated on 12 simulation tasks and real UR5 arms. RSS 2023. [Docs](https://github.com/real-stanford/diffusion_policy)
 - **[Holosoma](https://github.com/amazon-far/holosoma)** – Full-stack humanoid sim-to-real training framework from Amazon FAR. Supports IsaacGym, IsaacSim, MJWarp, and MuJoCo backends with a unified inference stack for real-robot deployment on Unitree G1 and Booster T1.
 - **[HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse)** – Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
@@ -101,6 +104,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[Open X-Embodiment](https://github.com/google-deepmind/open_x_embodiment)** – Collaborative dataset of 22 embodiments, 1M+ episodes, 527 skills. Standard training corpus for generalist policies. [Docs](https://robotics-transformer-x.github.io)
 - **[PHUMA](https://davian-robotics.github.io/PHUMA/)** – Physically-grounded humanoid locomotion dataset from KAIST. Physics-constrained retargeting pipeline (PhySINK) adapts large-scale human motion capture to Unitree G1 and H1-2 while enforcing joint limits and eliminating foot skating. [Docs](https://github.com/DAVIAN-Robotics/PHUMA)
 - **[RoboCasa](https://robocasa.ai)** – Large-scale simulation framework for household robot training. RoboCasa365 ships 365 tasks, 2,500+ kitchen scenes, and 2,200+ hours of demonstration data. [Docs](https://github.com/robocasa/robocasa)
+- **[RoboTwin 2.0](https://robotwin-platform.github.io)** – Scalable data generator and benchmark for bimanual robotic manipulation. 50-task suite built on a 731-object library with structured domain randomization across clutter, lighting, background, and language. Supports five robot platforms. [Docs](https://github.com/RoboTwin-Platform/RoboTwin)
 
 ## Robot Middleware and Runtime
 
@@ -116,6 +120,7 @@ Maintained by [Backblaze](https://www.backblaze.com).
 - **[LeRobot SO-100 Arm](https://github.com/TheRobotStudio/SO-ARM100)** – Open-source 6-DOF arm co-developed with HuggingFace LeRobot. ~$120 BOM; standard entry-point for homegrown robot data.
 - **[Mobile ALOHA](https://mobile-aloha.github.io)** – Low-cost bimanual mobile-manipulation platform with open hardware and teleop code. Reference data-collection rig. [Docs](https://github.com/MarkFzp/mobile-aloha)
 - **[GELLO](https://wuphilipp.github.io/gello_site/)** – Low-cost, 3D-printable intuitive teleoperation system for arm manipulators. Popular for collecting demonstration data. [Docs](https://github.com/wuphilipp/gello_software)
+- **[ToddlerBot](https://toddlerbot.github.io)** – Low-cost (~$6k) 30-DOF open-source humanoid platform from Stanford for loco-manipulation research. 3D-printed design, full Python software stack with RL and diffusion-policy training, and built-in teleoperation interface for demo collection. CoRL 2025. [Docs](https://github.com/hshi74/toddlerbot)
 - **[Unitree XR Teleoperate](https://github.com/unitreerobotics/xr_teleoperate)** – Teleoperation of Unitree humanoid robots via Apple Vision Pro and Meta Quest 3. Supports arm, dexterous hand, and whole-body control with simulation mode.
 
 ## SDKs and Developer Tooling

@@ -113,6 +113,15 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: LingBot-VA
+  url: https://github.com/robbyant/lingbot-va
+  description: Causal video-action world model for generalist robot control from Ant Group. AR diffusion framework with dual-stream MoT architecture unifies visual prediction and action inference; SOTA on RoboTwin 2.0 and LIBERO benchmarks.
+  category: world-models
+  github: robbyant/lingbot-va
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Simulation and Physics Engines ----------------
 
 
@@ -408,6 +417,25 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: ASAP
+  url: https://agile.human2humanoid.com
+  docs_url: https://github.com/LeCAR-Lab/ASAP
+  description: Two-stage sim-to-real framework for agile humanoid whole-body skills from CMU LeCAR Lab. Pretrains motion-tracking policies in simulation, then learns a delta-action residual model from real-world data to close the dynamics gap. RSS 2025.
+  category: robot-learning-frameworks
+  github: LeCAR-Lab/ASAP
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
+
+- name: DeFi
+  url: https://github.com/LogosRoboticsGroup/DeFi
+  description: Decoupled forward and inverse dynamics pretraining for VLA models. Separate GFDM and GIDM models exploit action-free video and robot data independently; sets SOTA on CALVIN ABC-D (4.51 avg task length). ICLR 2026.
+  category: robot-learning-frameworks
+  github: LogosRoboticsGroup/DeFi
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Datasets and Benchmarks ----------------
 
 - name: Open X-Embodiment
@@ -518,6 +546,16 @@
   b2_integration: ""
   last_verified: 2026-04-21
 
+- name: RoboTwin 2.0
+  url: https://robotwin-platform.github.io
+  docs_url: https://github.com/RoboTwin-Platform/RoboTwin
+  description: Scalable data generator and benchmark for bimanual robotic manipulation. 50-task suite built on a 731-object library with structured domain randomization across clutter, lighting, background, and language. Supports five robot platforms.
+  category: datasets-and-benchmarks
+  github: RoboTwin-Platform/RoboTwin
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
+
 # ---------------- Robot Middleware and Runtime ----------------
 
 - name: ROS 2
@@ -580,6 +618,16 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-04-21
+
+- name: ToddlerBot
+  url: https://toddlerbot.github.io
+  docs_url: https://github.com/hshi74/toddlerbot
+  description: Low-cost (~$6k) 30-DOF open-source humanoid platform from Stanford for loco-manipulation research. 3D-printed design, full Python software stack with RL and diffusion-policy training, and built-in teleoperation interface for demo collection. CoRL 2025.
+  category: teleop-and-data-collection
+  github: hshi74/toddlerbot
+  license: MIT
+  b2_integration: ""
+  last_verified: 2026-05-04
 
 # ---------------- SDKs and Developer Tooling ----------------
 
