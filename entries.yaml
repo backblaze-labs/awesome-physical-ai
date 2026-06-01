@@ -57,6 +57,25 @@
   b2_integration: ""
   last_verified: 2026-04-18
 
+- name: UniVLA
+  url: https://github.com/OpenDriveLab/UniVLA
+  description: VLA that learns task-centric latent actions from cross-embodiment videos without action labels. Single generalist policy covers manipulation and navigation; pretrains in ~960 GPU-hours. SOTA on CALVIN, LIBERO, and SimplerEnv. RSS 2025.
+  category: robotics-foundation-models
+  github: OpenDriveLab/UniVLA
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: Cosmos Policy
+  url: https://github.com/NVlabs/cosmos-policy
+  docs_url: https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/post_training/predict2/cosmos_policy/post_training.html
+  description: Fine-tunes the Cosmos-Predict2-2B video foundation model for robot visuomotor control. Jointly predicts action chunks, future proprioception, and value estimates; supports best-of-N planning. Evaluated on LIBERO, RoboCasa, and ALOHA.
+  category: robotics-foundation-models
+  github: NVlabs/cosmos-policy
+  license: Apache-2.0
+  b2_integration: ""
+  last_verified: 2026-06-01
+
 - name: MolmoBot
   url: https://allenai.github.io/MolmoBot/
   docs_url: https://github.com/allenai/MolmoBot
@@ -476,6 +495,27 @@
   license: Apache-2.0
   b2_integration: ""
   last_verified: 2026-05-04
+
+- name: mjlab
+  url: https://github.com/mujocolab/mjlab
+  docs_url: https://mujocolab.github.io/mjlab/
+  description: Lightweight GPU-accelerated robot learning framework combining Isaac Lab's manager-based API with MuJoCo Warp. Minimal dependencies, multi-GPU support, and direct access to native MuJoCo data structures. Ships humanoid velocity-tracking and motion-imitation environments.
+  category: robot-learning-frameworks
+  github: mujocolab/mjlab
+  license: Apache-2.0
+  sdks:
+    - {language: Python (pip install mjlab)}
+  b2_integration: ""
+  last_verified: 2026-06-01
+
+- name: TienKung-Lab
+  url: https://github.com/Open-X-Humanoid/TienKung-Lab
+  description: IsaacLab-based locomotion training framework for full-sized humanoid robots. Combines AMP-style and periodic gait rewards for stable walking and running; includes motion retargeting, sim-to-sim MuJoCo transfer, and pre-trained walk/run policies.
+  category: robot-learning-frameworks
+  github: Open-X-Humanoid/TienKung-Lab
+  license: BSD-3-Clause
+  b2_integration: ""
+  last_verified: 2026-06-01
 
 # ---------------- Datasets and Benchmarks ----------------
 

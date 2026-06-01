@@ -8,6 +8,8 @@
   - docs: https://github.com/openvla/openvla
 - [Octo](https://octo-models.github.io): Transformer-based generalist robot policy pretrained on 800k trajectories. Flexible conditioning on goal images or language.
   - docs: https://github.com/octo-models/octo
+- [Cosmos Policy](https://github.com/NVlabs/cosmos-policy): Fine-tunes the Cosmos-Predict2-2B video foundation model for robot visuomotor control. Jointly predicts action chunks, future proprioception, and value estimates; supports best-of-N planning. Evaluated on LIBERO, RoboCasa, and ALOHA.
+  - docs: https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/post_training/predict2/cosmos_policy/post_training.html
 - [CrossFormer](https://crossformer-model.github.io): Transformer policy trained on 900k trajectories across 30 embodiments. Single model weights control arms, wheeled robots, quadcopters, and quadrupeds via language or goal-image conditioning.
   - docs: https://github.com/rail-berkeley/crossformer
 - [HoloMotion](https://github.com/HorizonRobotics/HoloMotion): Foundation model for humanoid whole-body control from Horizon Robotics. End-to-end pipeline for motion retargeting, distributed training, and ROS 2 deployment on real hardware (Unitree G1). Pre-trained weights on HuggingFace.
@@ -22,6 +24,7 @@
 - [RoboVLMs](https://robovlms.github.io): Unified framework for building VLA models from any VLM backbone. Integrates 8 VLM architectures (KosMos, PaLiGemma, Qwen, LLaVA, etc.) into robotic policies within 30 lines of code. Evaluated on CALVIN, SimplerEnv, and real-robot tasks. Nature Machine Intelligence 2026.
   - docs: https://github.com/Robot-VLAs/RoboVLMs
 - [RT-X / RT-2](https://robotics-transformer-x.github.io): Google DeepMind's RT-X family of generalist robotics transformers and the Open X-Embodiment dataset that underpins them.
+- [UniVLA](https://github.com/OpenDriveLab/UniVLA): VLA that learns task-centric latent actions from cross-embodiment videos without action labels. Single generalist policy covers manipulation and navigation; pretrains in ~960 GPU-hours. SOTA on CALVIN, LIBERO, and SimplerEnv. RSS 2025.
 
 ## World Models
 
@@ -85,6 +88,8 @@
   - docs: https://github.com/real-stanford/diffusion_policy
 - [Holosoma](https://github.com/amazon-far/holosoma): Full-stack humanoid sim-to-real training framework from Amazon FAR. Supports IsaacGym, IsaacSim, MJWarp, and MuJoCo backends with a unified inference stack for real-robot deployment on Unitree G1 and Booster T1.
 - [HumanoidVerse](https://github.com/LeCAR-Lab/HumanoidVerse): Multi-simulator locomotion training framework for humanoid robots supporting IsaacGym, IsaacSim, and Genesis. Enables sim-to-sim and sim-to-real transfer with domain randomization.
+- [mjlab](https://github.com/mujocolab/mjlab): Lightweight GPU-accelerated robot learning framework combining Isaac Lab's manager-based API with MuJoCo Warp. Minimal dependencies, multi-GPU support, and direct access to native MuJoCo data structures. Ships humanoid velocity-tracking and motion-imitation environments.
+  - docs: https://mujocolab.github.io/mjlab/
 - [MuJoCo Playground](https://playground.mujoco.org): GPU-accelerated suite of robot learning environments built on MJX. Supports locomotion, manipulation, and dexterous hands with zero-shot sim-to-real transfer.
   - docs: https://github.com/google-deepmind/mujoco_playground
 - [OpenVLA-OFT](https://openvla-oft.github.io): Fine-tuning recipe for VLA models combining parallel decoding, action chunking, and continuous-action regression. Achieves 25-50x inference speedup and 97.1% on LIBERO; tested on bimanual ALOHA hardware.
@@ -94,6 +99,7 @@
 - [Rofunc](https://github.com/Skylark0924/Rofunc): Full-process Python package for robot learning from demonstration and manipulation. Covers demo collection, preprocessing, IL/RL algorithms, and sim deployment on IsaacGym and Genesis.
   - docs: https://rofunc.readthedocs.io
 - [RSL-RL](https://github.com/leggedrobotics/rsl_rl): Lightweight GPU-accelerated RL library from ETH Zurich RSL. Implements PPO and student-teacher distillation; integrates directly with Isaac Lab and Legged Gym.
+- [TienKung-Lab](https://github.com/Open-X-Humanoid/TienKung-Lab): IsaacLab-based locomotion training framework for full-sized humanoid robots. Combines AMP-style and periodic gait rewards for stable walking and running; includes motion retargeting, sim-to-sim MuJoCo transfer, and pre-trained walk/run policies.
 
 ## Datasets and Benchmarks
 
