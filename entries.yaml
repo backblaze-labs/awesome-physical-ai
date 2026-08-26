@@ -783,3 +783,13 @@
   github: isaac-sim/IsaacLabExtensionTemplate
   b2_integration: ""
   last_verified: 2026-04-17
+
+- name: OmniSim
+  url: https://github.com/omnilink-tech/omnisim
+    description: Open-source robotics simulator with agent-facing HTTP/JSON and MCP control, native URDF import, synthetic-data tooling, and benchmark suites.
+      category: simulation-and-physics-engines
+        github: omnilink-tech/omnisim
+          license: Apache-2.0
+            b2_integration: ""
+              last_verified: 2026-08-26
+              
