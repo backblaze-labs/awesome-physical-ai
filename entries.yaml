@@ -701,6 +701,16 @@
   b2_integration: ""
   last_verified: 2026-04-17
 
+- name: SO-ARM 102
+  url: https://github.com/roboninecom/SO-ARM-102
+  docs_url: https://github.com/roboninecom/SO-ARM-102/blob/main/docs/assembly-guide.md
+  description: 3D-printable leader-follower arm with 5 DOF plus a parallel gripper for LeRobot teleoperation and imitation learning; public CAD, BOM, printing projects and follower URDF.
+  category: teleop-and-data-collection
+  github: roboninecom/SO-ARM-102
+  license: CERN-OHL-P-2.0 hardware; Apache-2.0 LeRobot control software
+  b2_integration: ""
+  last_verified: 2026-10-07
+
 - name: Unitree XR Teleoperate
   url: https://github.com/unitreerobotics/xr_teleoperate
   description: Teleoperation of Unitree humanoid robots via Apple Vision Pro and Meta Quest 3. Supports arm, dexterous hand, and whole-body control with simulation mode.
