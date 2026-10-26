@@ -779,6 +779,13 @@
 
 # ---------------- Templates and Example Projects ----------------
 
+- name: AgentFEM Morph Lab
+  url: https://lab.haoming-luo.com/morph/
+  description: Browser-based flexible-rod shape-design demo with target-point matching, sketched-curve fitting and equilibrium-branch exploration. Uses a planar quasi-static mechanics solver; no contact, dynamic control or hardware validation.
+  category: templates-and-example-projects
+  b2_integration: ""
+  last_verified: 2026-10-27
+
 - name: LeRobot Tutorials
   url: https://huggingface.co/docs/lerobot/en/tutorials
   description: Step-by-step tutorials for recording robot data, training policies, and evaluating on real hardware.
