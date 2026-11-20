@@ -172,7 +172,7 @@
   github: google-deepmind/mujoco
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mujoco)}
+    - {language: Python}
     - {language: C}
   b2_integration: ""
   last_verified: 2026-04-17
@@ -185,7 +185,7 @@
   github: Genesis-Embodied-AI/Genesis
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install genesis-world)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -206,7 +206,7 @@
   github: google/brax
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install brax)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -218,7 +218,7 @@
   github: bulletphysics/bullet3
   license: Zlib
   sdks:
-    - {language: Python (pip install pybullet)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -240,7 +240,7 @@
   github: newton-physics/newton
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install newton)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -252,7 +252,7 @@
   github: ARISE-Initiative/robosuite
   license: MIT
   sdks:
-    - {language: Python (pip install robosuite)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -304,7 +304,7 @@
   github: facebookresearch/habitat-lab
   license: MIT
   sdks:
-    - {language: Python (pip install habitat-lab)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -326,7 +326,7 @@
   github: haosulab/SAPIEN
   license: MIT
   sdks:
-    - {language: Python (pip install sapien)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-05-04
 
@@ -350,7 +350,7 @@
   github: huggingface/lerobot
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install lerobot)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -372,7 +372,7 @@
   github: DLR-RM/stable-baselines3
   license: MIT
   sdks:
-    - {language: Python (pip install stable-baselines3)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -381,7 +381,7 @@
   description: Scalable RL library part of Ray. Distributes training across clusters; supports most standard algorithms.
   category: robot-learning-frameworks
   sdks:
-    - language: "Python (pip install ray[rllib])"
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -393,7 +393,7 @@
   github: google-deepmind/mujoco_playground
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install playground)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -433,7 +433,7 @@
   github: leggedrobotics/rsl_rl
   license: BSD-3-Clause
   sdks:
-    - {language: Python (pip install rsl-rl-lib)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -464,7 +464,7 @@
   github: Skylark0924/Rofunc
   license: GPL-3.0
   sdks:
-    - {language: Python (pip install rofunc)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -504,7 +504,7 @@
   github: mujocolab/mjlab
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install mjlab)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-06-01
 
@@ -601,7 +601,7 @@
   github: Farama-Foundation/Gymnasium-Robotics
   license: MIT
   sdks:
-    - {language: Python (pip install gymnasium-robotics)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-18
 
@@ -623,7 +623,7 @@
   github: carlosferrazza/humanoid-bench
   license: MIT
   sdks:
-    - {language: Python (pip install -e .)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-21
 
@@ -667,7 +667,7 @@
   github: dora-rs/dora
   license: Apache-2.0
   sdks:
-    - {language: Python (pip install dora-rs)}
+    - {language: Python}
     - {language: Rust}
   b2_integration: ""
   last_verified: 2026-04-17
@@ -740,7 +740,7 @@
   github: facebookresearch/pytorch3d
   license: BSD-3-Clause
   sdks:
-    - {language: Python (pip install pytorch3d)}
+    - {language: Python}
   b2_integration: ""
   last_verified: 2026-04-17
 
@@ -752,7 +752,7 @@
   github: isl-org/Open3D
   license: MIT
   sdks:
-    - {language: Python (pip install open3d)}
+    - {language: Python}
     - {language: C++}
   b2_integration: ""
   last_verified: 2026-04-17
