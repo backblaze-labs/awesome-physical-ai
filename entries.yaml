@@ -730,6 +730,14 @@
   b2_integration: ""
   last_verified: 2026-05-04
 
+- name: Autelica Capture QA API
+  url: https://app.autelica.com/check/docs/api
+  docs_url: https://app.autelica.com/check/docs/openapi.yaml
+  description: REST API that checks multi-camera video recorded for robot learning (a head camera plus up to four fixed cameras), recovers the sync offsets between cameras and returns a per-second usable/unusable report with a reason code for each rejected second.
+  category: teleop-and-data-collection
+  b2_integration: ""
+  last_verified: 2026-11-26
+
 # ---------------- SDKs and Developer Tooling ----------------
 
 - name: PyTorch3D
